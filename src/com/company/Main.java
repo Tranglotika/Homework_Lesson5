@@ -38,6 +38,8 @@ public class Main {
         for (int i = 0; i < n; i++) {
             if (products[i].name.contains(findName)) {
                 System.out.println(products[i]);
+            } else {
+                System.out.println("Không có sản phẩm này");
             }
         }
     }
